@@ -1,0 +1,150 @@
+.body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.caixa{
+    background-color: #f9943a;
+    border: 0 0 40px 0;
+    padding: 0 0 60px;
+}
+
+.caixa img{
+    width: 20%;
+}
+
+ul{
+    display: inline;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+nav{
+    background-color: #f9943a;
+	position: absolute;
+	top: 110px;
+	right:  30px;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 20px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+nav a:hover{
+	color:  #FFFFFF;
+	text-decoration: underline;
+}
+
+main{
+    background: linear-gradient(#fce087e3, #fffbca);
+}
+
+.DadosPessoais{
+    display: inline;
+    font-size: 18px;
+    background-color: #BBBBBB;
+}
+
+.subtitulo{
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 0 10px 0;
+}
+
+.DadosPessoais p{
+    padding: 10px 0 10px 0;
+}
+
+.Dados{
+    display: inline;
+    width: 35%;
+    float: left;
+}
+
+.informacoes{
+    padding: 40px 0 40px 0;
+}
+
+.informacoes strong{
+    font-weight: bold;
+}
+
+.Objetivo{
+    padding: 60px 0 30px 0;
+    display: block;
+    font-size: 24px;
+}
+
+.objetivo2{
+    display: block;
+    padding: 30px 0 50px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pobjetivo{
+    text-align: center;
+    font-style: italic;
+}
+
+footer{
+    background-color: #f9943a;
+}
+
+.img{
+    align: left;
+    width: 20%;
+}
+
+footer p{
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .DadosPessoais, .informacoes, {
+        width: auto;
+    }
+
+    .Dados{
+        width: 90%;
+        display: block;
+        margin: 0 0 30px;
+    }
+
+    h1 {
+        text-align: center;
+        width: auto;
+    }
+
+    .menu {
+        position: static;
+        margin: 40px 0 0 0;
+        text-align: center;
+   }
+
+   .Objetivo{
+    padding: 30px 0 30px 0;
+    display: block;
+    font-size: 24px;
+}
+    .objetivo2{
+    display: block;
+    padding: 10px 0 0px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+}
