@@ -1,0 +1,1 @@
+Esse projeto tem como ideia utilizar os conhecimentos adquiridos no curso de HTML e CSS da Alura para construir um site com informações do meu currículo. Ainda incompleto, só tem a primeira página, com algumas informações ainda pretendo colocar um vídeo com apresentação na primeira página, além de fazer o resto do site.
